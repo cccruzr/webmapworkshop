@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hello World</title>
+		<style type="text/css">
+			html {
+				font-family: Georgia, Times, serif;
+				font-size: 24px;
+				line-height: 32px;
+			}
+
+			a {
+				color: orange;
+			}
+			
+			a:hover {
+				color: red
+			}
+
+			p {
+				background-color: #dddddd;
+				padding: 20px;
+				width: 320px;
+				margin: 10px;
+				float: left; /* float allows us to flexibility stack items in multiple columns */
+			}
+
+			#wrapper {
+				margin: 0px auto;
+				width: 800px;
+				background-color: #eeeeee;
+				padding: 20px;
+				overflow: auto /* necessary for clearing the floats contained within */
+			}
+
+			img {
+				padding: 20px;
+				width: 320px;
+				margin: 10px;
+				float: left;
+			}
+
+			h1{
+				font-family: Verdana, Geneva, sans-serif;
+				margin-left: 24px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<h1 id="headtext">Welcome to my webpage</h1>
+			<p id="foo">This is my first paragraph.</p>
+			<p id="bar">This is my second paragraph. <a href="http://dusp.mit.edu">Take me to DUSP.</a></p>
+			<img src="images/cat.jpg">
+			<img src="https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2f/47/boston.jpg">
+			<img src="http://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2016/MIT-FFMIT_0.jpg">
+		<div>
+	</body>
+</html>
